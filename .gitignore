@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+[Aa]ssets/AssetStoreTools*
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -9,6 +10,11 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+
+# file on crash reports
+sysinfo.txt
+# Unity3D generated meta files
+*.pidb.meta
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -58,3 +64,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+###
+# OS generated
+###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
